@@ -1,7 +1,7 @@
 # Coding Interview Problem Statements (Language Agnostic)
 
-This document contains common **logic-based interview problems**.
-These problems can be solved using **any programming language** and focus on
+This document contains common **logic-based interview problems**.  
+These problems can be solved using **any programming language** and focus on  
 **efficiency, clarity, and problem-solving skills**.
 
 ---
@@ -10,7 +10,7 @@ These problems can be solved using **any programming language** and focus on
 
 ### 📌 Problem Statement
 
-Given an array of numbers, find the **largest** and **second largest** numbers
+Given an array of numbers, find the **largest** and **second largest** numbers  
 using **only a single loop**.
 
 Sorting the array is **not allowed**.
@@ -26,7 +26,7 @@ Sorting the array is **not allowed**.
 
 **Output:**
 ```
-Largest: 20
+Largest: 20  
 Second Largest: 15
 ```
 
@@ -70,15 +70,13 @@ Second Largest: 15
 
 ---
 
----
-
 ## 🧩 Problem 2: Valid Anagram
 
 ### 📌 Problem Statement
 
 Given two strings, determine whether they are **anagrams** of each other.
 
-Two strings are anagrams if they contain the **same characters with the same frequency**,
+Two strings are anagrams if they contain the **same characters with the same frequency**,  
 but possibly in a different order.
 
 ---
@@ -121,7 +119,7 @@ true
 ### 🎯 Expected Approach (High Level)
 
 - If lengths differ, return false
-- Count character frequencies and compare
+- Count character frequencies and compare  
   **OR**
 - Sort both strings and compare
 
@@ -134,14 +132,30 @@ true
 
 ---
 
-## 🏁 Interviewer Expectations
+## 🧩 Problem 3: FizzBuzz
 
-- Clear logic explanation
-- Efficient solution without unnecessary operations
-- Proper handling of edge cases
-- Ability to explain **why** the solution works
+### 📌 Problem Statement
+
+Write a program that prints numbers from **1 to N**.
+
+For multiples of:
+- **3**, print `"Fizz"`
+- **5**, print `"Buzz"`
+- **Both 3 and 5**, print `"FizzBuzz"`
+
+Otherwise, print the number itself.
 
 ---
 
-📌 **Tip:**  
-Solving these problems without sorting unless required shows strong algorithmic thinking.
+## 🧩 Problem 4: Reverse a String (Without Using Built-in Methods)
+
+## 🧩 Problem 5: First Non-Repeating Character in a String
+
+---
+
+## 🏁 Interviewer Expectations
+
+- Clear explanation of logic
+- Efficient solution without unnecessary operations
+- Proper handling of edge cases
+- Ability to explain **why** the solution works
