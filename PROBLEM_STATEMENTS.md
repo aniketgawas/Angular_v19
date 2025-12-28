@@ -26,7 +26,7 @@ Sorting the array is **not allowed**.
 
 **Output:**
 ```
-Largest: 20  
+Largest: 20
 Second Largest: 15
 ```
 
@@ -119,7 +119,7 @@ true
 ### 🎯 Expected Approach (High Level)
 
 - If lengths differ, return false
-- Count character frequencies and compare  
+- Count character frequencies and compare
   **OR**
 - Sort both strings and compare
 
@@ -147,9 +147,118 @@ Otherwise, print the number itself.
 
 ---
 
+### 🧠 Example
+
+**Input:**
+```
+N = 15
+```
+
+**Output:**
+```
+1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz,
+11, Fizz, 13, 14, FizzBuzz
+```
+
+---
+
+### ⏱ Complexity Expectation
+
+- Time Complexity: **O(n)**
+- Space Complexity: **O(1)**
+
+---
+
 ## 🧩 Problem 4: Reverse a String (Without Using Built-in Methods)
 
+### 📌 Problem Statement
+
+Given a string, reverse it **without using any built-in reverse methods**.
+
+---
+
+### 🧠 Example
+
+**Input:**
+```
+"hello"
+```
+
+**Output:**
+```
+"olleh"
+```
+
+---
+
+### 📌 Constraints
+
+- Do not use built-in reverse functions
+- String may be empty
+- String may contain spaces and special characters
+
+---
+
+### 🎯 Expected Approach (High Level)
+
+- Use two pointers (start and end)
+- Swap characters until pointers meet
+
+---
+
+### ⏱ Complexity Expectation
+
+- Time Complexity: **O(n)**
+- Space Complexity: **O(1)** or **O(n)**
+
+---
+
 ## 🧩 Problem 5: First Non-Repeating Character in a String
+
+### 📌 Problem Statement
+
+Given a string, find the **first character that does not repeat**.
+
+If no such character exists, return `null`, `-1`, or an empty value.
+
+---
+
+### 🧠 Example
+
+**Input:**
+```
+"swiss"
+```
+
+**Output:**
+```
+'w'
+```
+
+---
+
+### 📥 More Examples
+
+| Input        | Output |
+|-------------|--------|
+| `"aabb"`    | None   |
+| `"stress"`  | 't'    |
+| `"aabccde"` | 'b'    |
+| `""`        | None   |
+
+---
+
+### 🎯 Expected Approach (High Level)
+
+- Count frequency of each character
+- Traverse string again to find the first unique character
+
+---
+
+### ⏱ Complexity Expectation
+
+- Time Complexity: **O(n)**
+- Space Complexity: **O(n)**
 
 ---
 
@@ -159,3 +268,8 @@ Otherwise, print the number itself.
 - Efficient solution without unnecessary operations
 - Proper handling of edge cases
 - Ability to explain **why** the solution works
+
+---
+
+📌 **Tip:**  
+Avoid sorting unless explicitly required — interviewers look for **optimal logic and clarity**.
